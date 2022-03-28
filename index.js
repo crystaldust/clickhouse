@@ -2,7 +2,8 @@
 
 const zlib = require('zlib');
 const _ = require('lodash');
-const request = require('request');
+// const request = require('request');
+const request = require('browser-request');
 const { Transform, Readable, } = require('stream');
 const JSONStream = require('JSONStream');
 const through = require('through');
